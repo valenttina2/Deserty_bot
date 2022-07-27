@@ -2,7 +2,7 @@
 
 import telebot
 from telebot import types
-import logging
+#import logging
 
 token = '5533009771:AAEOV7B3ImfCo_oi4sjVcG2_mfumSDakpHQ'
 
@@ -14,7 +14,7 @@ cake_data= {"med": ["Медовик",1],
             "kap": ["Капкейк",5],
             }
 logger = telebot.logger
-telebot.logger.setLevel(logging.DEBUG)
+# telebot.logger.setLevel(logging.DEBUG)
 # "id":-1001605514697 - канал для заказов
 
 
